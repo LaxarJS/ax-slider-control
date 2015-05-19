@@ -6,7 +6,7 @@
 define( [
    'angular',
    'jquery',
-   'jquery_ui/slider'
+   'jquery-ui/ui/slider'
 ], function( ng, $ ) {
    'use strict';
 
@@ -61,6 +61,6 @@ define( [
 
    ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-   return ng.module( directiveName + 'Control' ).directive( directiveName, directive );
+   return ng.module( directiveName + 'Control', [] ).directive( directiveName, directive );
 
 } );

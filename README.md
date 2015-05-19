@@ -1,6 +1,6 @@
 # AxSliderControl
 
-> An AngularJS directive wrapper for the jQuery UI slider, for use in LaxarJS widgets 
+> Wraps the jQuery UI slider component as an AngularJS directive, for LaxarJS widgets.
 
 
 ## Installation
@@ -13,13 +13,20 @@ For general information on installing, styling and optimizing controls, have a l
 Install the control:
 
 ```sh
-bower install laxarjs.ax-slider-control
+bower install laxar-slider-control
 ```
 
-Reference the control from the `widget.json` of your widget:
+Make sure that `jquery` and `jquery-ui` can be found by RequireJS.
+For example, assuming that your `baseUrl` is `'bower_components'`, add the following to the `paths` section of your `require_config.js`:
+
+```js
+jquery: 'jquery/dist/jquery'
+```
+
+Now you can reference the control from the `widget.json` of your widget:
  
 ```json
-   "controls": [ "laxarjs.ax-slider-control" ]
+"controls": [ "laxar-slider-control" ]
 ```
 
 
