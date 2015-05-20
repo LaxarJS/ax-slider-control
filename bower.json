@@ -15,6 +15,6 @@
    "dependencies": {
       "jquery": "^1.11.x",
       "jquery-ui": "^1.11.x",
-      "laxar": "^1.0.0-alpha.12"
+      "laxar": "^1.0.0-alpha.14"
    }
 }
