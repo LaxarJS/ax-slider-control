@@ -1,6 +1,6 @@
 {
    "name": "laxar-slider-control",
-   "version": "1.0.0-alpha.0",
+   "version": "1.0.0",
    "description": "Wraps the jQuery UI slider component as an AngularJS directive, for LaxarJS widgets.",
    "authors": [],
    "license": "MIT",
